@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "art-is-explosion-mod",
+	"version": "${version}",
+	"name": "Art Is Explosion",
+	"description": "The name indicates everything, tho you can expect to 'have a blast' on this party",
+	"authors": [
+		"Yam7da"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/art-is-explosion-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yam7da.artisexplosion.ArtIsExplosionMod"
+		],
+		"client": [
+			"net.yam7da.artisexplosion.ArtIsExplosionModClient"
+		],
+		"fabric-datagen": [
+			"net.yam7da.artisexplosion.ArtIsExplosionModDataGenerator"
+		]
+	},
+	"mixins": [
+		"art-is-explosion-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"bottom": "art-is-explosion-mod:block/ictu_de_caelo_bottom",
+		"side": "art-is-explosion-mod:block/ictu_de_caelo_side",
+		"top": "art-is-explosion-mod:block/ictu_de_caelo_top"
+	}
+}

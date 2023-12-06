@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "art-is-explosion-mod:item/trigger_dynamite"
+  }
+}
